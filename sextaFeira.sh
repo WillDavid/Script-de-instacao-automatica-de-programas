@@ -6,7 +6,7 @@ echo -e '\n\nUpdate\n\n'
 sleep 10
 
 
-################################
+################################ ok
 #UMAKE
 echo -e '\n\nUMAKE\n\n'
 sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make -y
@@ -15,7 +15,7 @@ sudo apt-get install ubuntu-make -y
 echo -e '\n\n[Instalado]UMAKE\n\n'
 sleep 10
 
-###############################
+############################### ok
 #Snapd
 echo -e '\n\nSnapd\n\n'
 sudo apt update
@@ -26,29 +26,29 @@ echo -e '\n\[Instalado]Snapd\n\n'
 #Visual Studio Code
 echo -e '\n\nVisual Studio Code\n\n'
 sudo apt-get update
-umake ide visual-studio-code
+sudo snap install --classic code
 echo -e '\n\n[Instalado]Visual Studio Code\n\n'
 sleep 10
 
 ###############################
 #Telegram
 echo -e '\n\nTelegram\n\n'
-sudo add-apt-repository ppa:atareao/telegramp
 sudo apt-get update
-sudo apt-get install telegram
+sudo snap install telegram-desktop
 echo -e '\n\n[Instalado]Telegram\n\n'
 sleep 10
 #sudo apt-get remove telegram && sudo apt-get autoremove
 
-###############################
+############################### ok
 #Eclipse
 echo -e '\n\nEclipse\n\n'
+sudo apt-get update
 sudo snap install --classic eclipse
 sudo apt install default-jre
 echo -e '\n\n[Instalado]Eclipse\n\n'
 sleep 10
 
-###############################
+############################### ok
 #Spotify
 echo -e '\n\nSpotify\n\n'
 sudo apt-get update
@@ -56,7 +56,7 @@ snap install spotify
 echo -e '\n\n[Instalado]Spotify\n\n'
 sleep 10
 
-###############################
+############################### ok
 #Discord
 echo -e '\n\nDiscord\n\n'
 sudo snap install discord
@@ -72,7 +72,7 @@ sudo apt install firefox
 echo -e '\n\n[Instalado]Firefox\n\n'
 sleep 10
 
-###############################
+############################### ok
 #GithubDesktop
 echo -e '\n\nGithub Desktop\n\n'
 sudo apt-get update
