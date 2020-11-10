@@ -1,5 +1,5 @@
 <h1 align="left">Script de automatização de instação de programas (acho que o nome é bem sugestivo)</h1>
-<p>:robot: Este repositório contem um script que instala programas de forma autoamtica em distros Linux</p>
+<p>:robot: Este repositório contem um script que instala programas de forma automatica em distros Linux /p>
 
 <h3 align="left">:rocket: Distros testadas</h3>
 <p>:penguin: Ubuntu 20.10 | Mint 20 "Ulyana"</p>
